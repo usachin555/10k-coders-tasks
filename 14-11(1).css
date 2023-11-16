@@ -1,0 +1,82 @@
+.md{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    height: 1000px;
+    /* text-align: justify; */
+    /* height: 50%;
+    width: 50%; */
+}
+.head-para{
+    text-align: center;
+}
+.head1{
+    font-size: 60px;
+}
+.head-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+        text-align: justify;
+        text-wrap: wrap;
+}
+/* .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-wrap: wrap;
+} */
+.name-container{
+    display: flex;
+    /* gap: 10px; */
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.cards-container{
+ display: flex;
+ flex-direction: row;
+ /* justify-content:space-around;    */
+ justify-content: center;
+ align-items: center;
+ gap: 100px;
+}
+.para{
+    text-align: center;
+}
+.cd{
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* .img{
+    height: 5px;
+    width: 5px;
+} */
+img{
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+}
+
+i{
+    font-size: large;
+}
+
+.footer{
+    display: flex;
+    gap: 5px;
+}
