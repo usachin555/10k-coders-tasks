@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            height: 2000px;
+            width: 100%;
+            background-color: #3f414d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .pie{
+            background-color: black;
+            background-image: conic-gradient(red 0deg, red 45deg, purple 45deg, purple 90deg, purple 90deg, purple 135deg, red 135deg, red 135deg, red 180deg, red 180deg, red 225deg, purple 225deg, purple 270deg, purple 270deg, purple 315deg, red 315deg);
+            height:1250px;
+            width: 1250px;
+            border-radius: 50%;
+        }
+        .pie1{
+            background-color: black;
+            height:1250px;
+            width: 1250px;
+            border-radius: 50%;
+            background-image: repeating-conic-gradient(red 0deg 5deg, yellow 5deg 15deg, blue 15deg 30deg);
+        }
+        .pie2{
+            background-color: black;
+            height:1250px;
+            width: 1250px;
+            border-radius: 50%;
+            background-image: radial-gradient(green 33%, white 60%, orange 20%);
+        }
+        h1{
+            font-size: 50px;
+            color: #ffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="pie"><h1>CONIC-GRADIENT</h1></div>
+        <div class="pie1"><h1>Repeating-conic-gradient</h1></div>
+        <div class="pie2"><h1>radial-gradient</h1></div>
+
+    </div>
+</body>
+</html>
