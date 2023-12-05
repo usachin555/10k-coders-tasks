@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .first-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .head1{
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+        /* padding-left: 1500px; */
+        color: black;
+        background-color: rgb(146, 151, 159);
+        font-weight: 500;
+        /* text-shadow: 5px 10px; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .pic1:active{
+        /* background-color: blue; */
+        height: 1000px;
+        width: 800px;
+        /* overflow: hidden; */
+        
+      }
+      .head2{
+        font-size: 50px;
+        align-items: center;
+        /* padding-left: 1500px; */
+        color: rgb(0, 0, 0);
+        background-color: rgb(159, 146, 146);
+        font-weight: 500;
+        /* text-shadow: 5px -10px; */
+
+      }
+      .pics-container{
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        flex-wrap: wrap;
+        background-color: #8b2e8b;
+      }
+      .pic1{
+        height: 800px;
+        width: 690px;
+      }
+      .names{
+        text-align: center;
+        font-size: 80px;
+        font-weight: 600px;
+      }
+      .pic{
+        /* border: 2px solid rgb(48, 46, 46); */
+      }
+      .sec-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      :target{
+        /* border: 2px solid rgb(232, 91, 91); */
+        height: 200px;
+        width: 200px;
+      }
+      @media  screen and (min-width: 320px) and (max-width: 800px){
+       .head1{
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       h1{
+        font-size: 30px;
+       }
+       .head2{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+       .pics-container{
+        background-color: #fff;
+        display: flex;
+        /* flex-direction: column; */
+        /* padding: 70px; */
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+        background-color: #8b2e8b;
+
+       }
+       /* .first-div{
+        border: 2x solid black;
+       } */
+       .pic1{
+        height: 300px;
+        width: 300px;
+       }
+       .names{
+        font-size: 20px;
+       }  
+       .pic1:hover{
+        height:310px;
+        width: 310px;
+       }
+      
+      }
+
+    </style>
+  </head>
+  <body style="text-align: center;">
+
+
+    <div claa=" md">
+      <div class="first-div">
+        <div class="head1"><h1>NARUTO CHARACTERS</h1><a href="#tanj">tanjiro</a><a href="#zen ">zenitsu</a><a href="#ino">inosuke</a><br> <a href="#kak">kakashi</a><a href="#nar">naruto</a></div>
+        <div class="pics-container">
+          <div class="pic">
+            <img id="nar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_u5X7hnfu5ZtMhGR8G3DqJUZFU92WhgXxdA&usqp=CAU" class="pic1"
+            />
+            <h2 class="names">NARUTO</h2>
+          </div>
+          <div class="pic">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Xagk_2-yU3ITO69Gon7CngskJTlYOFVwRg&usqp=CAU" class="pic1"
+            />
+            <h2 class="names">SASUKE</h2>
+          </div>
+          <div class="pic">
+            <img id="kak"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKcHkyd4cT2xPJQz3xLkhNsWx6_O88oRAKg&usqp=CAU" class="pic1"
+            />
+            <h2 class="names" >KAKASHI</h2>
+          </div>
+          <div class="pic">
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT80C5SWNc_N3FUAg4nxnZg9sEz4ZrVDwBldw&usqp=CAU" class="pic1"
+            />
+            <h2 class="names">KURAMA</h2>
+          </div>
+          <div class="pic">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU_xJR1d97ovtvKovJhEiifXfh2imMcnGG3Q&usqp=CAU" class="pic1"
+            />
+            <h2 class="names">JIRAIYA</h2>
+          </div>
+          
+          <div class="pic">
+            <img
+              src="https://cdnb.artstation.com/p/assets/images/images/035/159/985/large/bharat-sharma-compositing-shikamadfgru.jpg?1614250907" class="pic1"
+            />
+            <h2 class="names">SHIKAMARU</h2>
+          </div>
+        </div>
+      </div>
+      <div class="sec-div">
+        <div class="head2"><h1>DEMON-SLAYER CHARACTERS</h1></div>
+        <div class="pics-container">
+            <div class="pic">
+            <img id="tanj"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdpJhP74aC2y7cnfOH-c9goxmjMAIk8xINGg&usqp=CAU" class="pic1"
+            />
+            <h2 class="names" >TANJIRO</h2>
+          </div>
+          <div class="pic">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ggEE2DNfkKIIIwiUG11RCAvynOmWgOrzMA&usqp=CAU" class="pic1"
+            />
+            <h2 class="names">NEZUKO</h2>
+          </div>
+          <div class="pic">
+            <img id="zen"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuRPkGANCA37v2mLXjqBfMmtizq_KcGdBhrg&usqp=CAU" class="pic1"
+            />
+            <h2 class="names" >ZENITSU</h2>
+          </div>
+          <div class="pic">
+            <img id="ino"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4w19FXsytgD_uf6365NbsMH3kS0lipB7eNQ&usqp=CAU" class="pic1"
+            />
+            <h2 class="names" >INOSUKE</h2>
+          </div>
+          <div class="pic">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ49JLB5sMA2uWJLNOqb4IxnuqILM9LvZbDlA&usqp=CAU" class="pic1"
+            />
+            <h2 class="names">GIYU TOMIAKA</h2>
+          </div>
+          <div class="pic">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDej6JBL7ezqDRguJlPVDEZIuKtq33JD7QZLfq8U4j80a7z3fetjJ-HzOcF9ndRRsVvE&usqp=CAU" class="pic1"
+                />
+                <h2 class="names">RENGOKU</h2>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
