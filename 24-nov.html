@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            display: flex;
+            flex-direction: column;
+        }
+       .top-div{
+        background-color: #4b4848;
+        /* width: 100%; */
+        /* height: 500px; */
+        /* : center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100px;
+        padding: 100px;
+       }
+       h2{
+        font-size: 80px;
+       }
+       h5{
+        font-size: 60px;
+       }
+       .a-div{
+        width: 30%;
+        padding: 80px;
+        /* height: 2000px; */
+        background-color: rgb(24, 20, 20);
+       }
+       .head3{
+            font-size: 3em;
+       }
+       .a-inner{
+            /* max-width: fit-content; */
+            font-size: 50px;
+            /* display: flex;
+            flex-direction: column; */
+            /* text-align: center; */
+       }
+        input[type='radio']{
+            height: 50px;
+            width: 100px;
+       }
+       .sec-div{
+        display: flex;
+        padding: 80px;
+        background-color: rgb(24, 20, 20);
+
+       }
+       label{
+        background-color: #c6baba;
+        /* width: 30%; */
+        font-size: 50px;
+    padding: 10px;
+       }
+       .transf-div{
+        background-color: #1c1a1a;
+        color: whitesmoke;
+        font-size: 50px;
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        left: 1500px;
+        top: 1000px;
+        z-index: 1;
+        opacity: 0.5;
+        /* padding: 30px; */
+       }
+       .b-div{
+        background-color: #e4dbdb;
+        padding: 50em;
+        width: 40%;
+        position: relative;
+        /* font-size: 80px; */
+       }
+       .buton1:active~.transf-div{
+            transform: none;
+       }
+
+       .buton2:checked~.transf-div{
+            transform: rotate(10deg);
+       }
+
+       .buton3:checked~.transf-div{
+            transform: rotate(45deg);
+       }
+
+       .buton4:active~.transf-div{
+            transform: rotateX(45deg);
+       }
+       
+       .buton5:active~.transf-div{
+            transform: rotateX(100deg);
+       }
+
+       .buton5:active~.transf-div{
+            transform: rotateX(100deg);
+       }
+
+       .buton6:active~.transf-div{
+            transform: rotateY(45deg);
+       }
+
+       .buton7:active~.transf-div{
+            transform: rotateY(80deg);
+       }
+
+       .buton8:active~.transf-div{
+            transform: skew(20deg, 20deg);
+       }
+
+       .buton9:active~.transf-div{
+            transform: skew(30deg, 30deg);
+       }
+
+       .buton10:active~.transf-div{
+            transform: skewX(30deg);
+       }
+
+       .buton11:active~.transf-div{
+            transform: skew(40deg);
+       }
+
+       .buton12:active~.transf-div{
+            transform: skewY(30deg);
+       }
+
+       .buton13:active~.transf-div{
+            transform: skewY(40deg);
+       }
+
+       .buton14:active~.transf-div{
+        transform: translate(20px, 10px);
+        }
+
+        .buton15:active~.transf-div{
+        transform: translate(20px, 20px);
+        }
+
+        .buton16:active~.transf-div{
+        transform: scale(2,2);
+        }
+
+        .buton17:active~.transf-div{
+        transform: scale(2,3);
+        }
+
+        .buton18:active~.transf-div{
+            transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+        }
+
+        .buton19:active~.transf-div{
+            transform: matrix(0.586,0.8,-0.8,0.586,0,0);
+        }
+
+        .buton20:active~.transf-div{
+            transform: matrix(0.586,0.8,-0.8,0.586,0,0);   
+         }
+
+        .buton21:active~.transf-div{
+            transform: matrix(0.586,0.8,-0.8,0.586,40,30);   
+         }
+
+         span{
+            font-size: 70px;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="top-div"><b>CSS Transform</b></div>
+        <div class="first-div">
+            <h2>Demo of the different values of the transform property:</h2>
+            <span>Click to see the below result:</span>
+        </div>
+        <div class="sec-div">
+            
+            <!-- <h2>Demo of the different values of the transform property:</h2> -->
+            <!-- <Span class="head3">Click to see the below result:</Span> -->
+            <div class="a-div">
+                <div class="a-inner">
+                    <input type="radio" id="one" name="transform" value="none" class="buton1">
+                    <label for="one">transform: none</label><br>
+<br>
+                    <input type="radio" id="two" name="transform" value="10deg" class="buton2" checked >
+                    <label for="two">transform: rotate(10deg)</label><br>
+                    <br>
+                    <input type="radio" id="three" name="transform" value="45deg" class="buton3" checked >
+                    <label for="three">transform: rotate(45deg)</label><br>
+<br>
+                    <input type="radio" id="four" name="transform" value="45deg" class="buton4">
+                    <label for="four">transform: rotateX(45deg)</label><br>
+ <br>
+                    <input type="radio" id="five" name="transform" value="100deg" class="buton5">
+                    <label for="five">transform: rotateX(100deg)</label><br>
+<br>
+                    <input type="radio" id="six" name="transform" value="45deg" class="buton6">
+                    <label for="six">transform: rotateY(45deg)</label><br>
+<br>
+                    <input type="radio" id="seven" name="transform" value="80deg" class="buton7">
+                    <label for="seven">transform: rotateY(80deg)</label><br>
+<br>
+                    <input type="radio" id="eight" name="transform" value="20deg" class="buton8">
+                    <label for="eight">transform: skew(20deg, 20deg)</label><br>
+<br>
+                    <input type="radio" id="nine" name="transform" value="20deg" class="buton9">
+                    <label for="nine">transform: skew(30deg, 30deg)</label><br>
+<br>
+                    <input type="radio" id="ten" name="transform" value="30deg" class="buton10">
+                    <label for="ten">transform: skewX(30deg)</label><br>
+<br>
+                    <input type="radio" id="eleven" name="transform" value="40deg" class="buton11">
+                    <label for="eleven">transform: skewX(40deg)</label><br>
+<br>
+                    <input type="radio" id="twelve" name="transform" value="30deg" class="buton12">
+                    <label for="twelve">transform: skewY(30deg)</label><br>
+<br>
+                    <input type="radio" id="thirteen" name="transform" value="40deg" class="buton13">
+                    <label for="thirteen">transform: skewY(40deg)</label><br>
+<br>
+                    <input type="radio" id="fourteen" name="transform" value="20deg" class="buton14">
+                    <label for="fourteen">transform: translate(20px, 10px)</label><br>
+<br>
+                    <input type="radio" id="fifteen" name="transform" value="20deg" class="buton15">
+                    <label for="fifteen">transform: translate(20px, 20px)</label><br>
+<br>
+                    <input type="radio" id="sixteen" name="transform" value="20deg" class="buton16">
+                    <label for="sixteen">transform: scale(2,2)</label><br>
+<br>
+                    <input type="radio" id="seventeen" name="transform" value="20deg" class="buton17">
+                    <label for="seventeen">transform: scale(2,3)</label><br>
+<br>
+                    <input type="radio" id="eighteen" name="transform" value="20deg" class="buton18">
+                    <label for="eighteen">transform: matrix(0.866,0.7,-0.8,0.866,0,0);</label><br>
+<br>
+                    <input type="radio" id="nineteen" name="transform" value="20deg" class="buton19">
+                    <label for="nineteen">transform: matrix(0.586,0.8,-0.8,0.586,0,0);</label><br>
+<br>
+                    <input type="radio" id="twenty" name="transform" value="20deg" class="buton20">
+                    <label for="twenty">transform: matrix(0.586,0.8,-0.8,0.586,0,0);</label><br>
+<br>
+                    <input type="radio" id="twentyone" name="transform" value="20deg" class="buton21">
+                    <label for="twentyone">transform: matrix(0.586,0.8,-0.8,0.586,40,30);</label><br>
+
+                    <div class="transf-div">
+                       See how this square box reacts when you click on the radio-buttons shown in the black-box
+                    </div>
+                    
+                   
+                </div>
+            </div>
+            <div class="b-div">
+                <!-- <div class="transf-div">
+                    Nannu oopalantey pakkana unna buttons meeku anukoolanga nokkandi
+                </div> -->
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
