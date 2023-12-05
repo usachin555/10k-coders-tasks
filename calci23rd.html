@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* opacity: 3; */
+        }
+        .cal{
+            /* background-color:brown ; */
+            position: relative;
+            opacity: 2;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2bQicQedliByHvOsMRJ1DPBtaWmPDNXHYg&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: cover;
+/* opacity: 1; */
+            /* align-items: center; */
+            padding: 500px 35% 500px 35%;
+            display: grid;
+            grid-template-columns: 250px 250px 250px 250px;
+            gap: 10px;
+        }
+        .items{
+            background-color: #275353;
+            border: 4px solid rgb(37, 170, 0, 1);
+            font-size: 80px;
+            padding: 75px;
+            /* gap: 30px; */
+            font-weight: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.5;
+            color: aliceblue;
+            /* border-radius: 50%; */
+        }
+
+        .item999{
+            padding-left: 789px;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: #2b2d38;
+        }
+        .screen{
+            position: absolute;
+            font-size: 100px;
+            left: 42%;
+            top: 10%;
+            color: #a9ea5266;
+            z-index: 1;
+        }
+        .items:hover{
+            background-color: #119c9c;
+            height: 100px;
+            width: 100px;   
+        }
+        /* .out-div{
+            padding: 10px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="screen">CALCULATOR</div>
+        <div class="cal">
+            <!-- <div class="items item999"></div>
+            <div class="items item999"></div>
+            <div class="items item999"></div> -->
+            <div class="items item999">555+999</div>
+            <div class="items item0">AC</div>            
+            <div class="items item1">DEL</div>
+            <div class="items item2">%</div>
+            <div class="items item3">/</div>
+            <div class="items item4">7</div>
+            <div class="items item5">8</div>
+            <div class="items item6">9</div>
+            <div class="items item7">*</div>
+            <div class="items item8">4</div>
+            <div class="items item9">5</div>
+            <div class="items item10">6</div>
+            <div class="items item11">-</div>
+            <div class="items item12">1</div>
+            <div class="items item13">2</div>
+            <div class="items item14">3</div>
+            <div class="items item15">+</div>
+            <div class="items item16">0</div>
+            <div class="items item17">00</div>
+            <div class="items item18">.</div>
+            <div class="items item19">=</div>
+        </div>
+    </div>
+</body>
+</html>
